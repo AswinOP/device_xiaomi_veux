@@ -212,6 +212,9 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.xiaomi \
     vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
 
+# Google Camera
+$(call inherit-product, vendor/xiaomi/veux-gcam/Camera-vendor.mk)
+
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-impl-qti \
