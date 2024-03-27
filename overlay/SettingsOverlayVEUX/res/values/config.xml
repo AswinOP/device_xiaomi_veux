@@ -34,4 +34,8 @@
         <item>258</item> <!-- "Vivid" -->
     </integer-array>
 
+     <!-- About device screen, build maintainer -->
+     <string name="build_maintainer_summary">Aswin OP (ֆຖ❆ຟ)</string>
+     <string name="build_maintainer_donate_url">https://linktr.ee/iaswin</string>
+
 </resources>
